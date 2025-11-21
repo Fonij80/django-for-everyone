@@ -11,18 +11,21 @@ powerful way to build websites.
 
 ## 📦 Projects Included
 
-| Project                                                               | Description                                    | Status         |
-| --------------------------------------------------------------------- | ---------------------------------------------- | -------------- |
-| [User app](./2-Hello,%20World%20Website/Hello_World/)                 | All type of User Authentication (signup, login)| 🚧 In Progress |
-| [Blog app](./3-Personal%20Website/Personal_Website/)                  | Articles & all blog features                   | 🚧 In Progress |
-| [Messenger app](./4-Company%20Website/Company_Website/)               | Messenger integration for telegram, bale       | 🚧 In Progress |
-| [Scheduler app](./5-Message%20Board%20Website/Message_Board/)         | Task scheduler                                 | 🚧 In Progress |
-| [LLM-Client app](./6-Blog%20Website/Blog/)                            | LLM client                                     | 🚧 In Progress |
+| Project                                                       | Description                                     | Status         |
+| ------------------------------------------------------------- | ----------------------------------------------- | -------------- |
+| [User app](./2-Hello,%20World%20Website/Hello_World/)         | All type of User Authentication (signup, login) | 🚧 In Progress |
+| [Blog app](./3-Personal%20Website/Personal_Website/)          | Articles & all blog features                    | 🚧 In Progress |
+| [Messenger app](./4-Company%20Website/Company_Website/)       | Messenger integration for telegram, bale        | 🚧 In Progress |
+| [Scheduler app](./5-Message%20Board%20Website/Message_Board/) | Task scheduler                                  | 🚧 In Progress |
+| [LLM-Client app](./6-Blog%20Website/Blog/)                    | LLM client                                      | 🚧 In Progress |
 
 ## 📝 Helpful Notes
 
 #### 📚 Book Summary: Django for Beginners 5th Edition
+
 [Chapter 0 ـ Introduction](./0-Introduction/Introduction.md)
+
+#### [Django Cheat Sheet](./Helpful-Notes/fonij-django-cheat-sheet.md)
 
 ## 🛠️ Installation
 
@@ -44,8 +47,6 @@ powerful way to build websites.
 - **Documentation**: Detailed notes in `/docs` folder
 - **Code Samples**: Annotated examples from the book
 - **Cheat Sheets**: Quick reference guides for common commands
-
-
 
 docs/
 
@@ -85,29 +86,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 **Pro Tip**: Use the included `requirements.txt` to maintain consistent package versions across environments. Update using:
-
-### Django Cheat Sheet
-
-- Create Virtual Environment (VE):
-  - `python3 -m venv .venv`
-- Activate VE:
-  - `source .venv/bin/activate`
-- Deactivate VE:
-  - `deactivate`
-- Update pip:
-  - `python -m pip install –upgrade pip`
-- Install Django:
-  - `python -m pip install django~=<version>`
-- Create Project:
-  - `django-admin startproject <project_name> .`
-- Run Project:
-  - `python manage.py runserver`
-- Apply Available Migrations:
-  - `python manage.py migrate`
-- Create An App:
-  - `python manage.py startapp <app_name>`
-- Output Content of Current VE:
-  - `pip freeze > requirements.txt`
-- Run Tests:
-  - `python manage.py test`
-
